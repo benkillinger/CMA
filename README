@@ -1,0 +1,17 @@
+installation instructions:
+To install package, enter
+./configure && make && make install
+
+*note - 'make install' may require 'sudo make install' if you do
+not have root priveledges 
+
+files:		description:
+README		this file
+cma.c		memory manager implementation
+cma.h		memory manager header
+debug.h		debug file
+ma.c		memory manager test
+testprog.c	memory manager allocation size test
+
+contact:
+benkillinger@hotmail.com

@@ -1,0 +1,18 @@
+
+AC_INIT([cs224project], [0.10], [benkillinger@hotmail.com])
+AC_PREREQ([2.67])
+AM_INIT_AUTOMAKE(cma, 0.0.1)
+AC_CONFIG_SRCDIR([cma.c])
+
+AC_PROG_CC
+AM_PROG_LIBTOOL
+
+# Checks for header files.
+AC_CHECK_HEADERS([limits.h stdlib.h string.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_TYPE_SIZE_T
+
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
+
